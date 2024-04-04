@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangman Game</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+  <div class="flex justify-center items-center h-screen">
+    <div class="bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-md">
+      <h1 class="text-3xl font-bold mb-4">Hangman</h1>
+      <div class="flex justify-center mb-4">
+        <div id="word" class="text-2xl font-bold"></div>
+      </div>
+      <div class="flex justify-center mb-4">
+        <div id="guesses" class="text-xl"></div>
+      </div>
+      <div class="flex justify-center mb-4">
+        <div id="letters" class="text-xl"></div>
+      </div>
+      <div class="flex justify-center mb-4">
+        <button id="start-btn" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Start Game</button>
+      </div>
+      <div class="flex justify-center">
+        <div id="result" class="text-xl font-bold"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
